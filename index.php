@@ -8,7 +8,7 @@
     <h2>Is het patat of friet?</h2>
     <?php
        $opties = ["patat"];
-       echo array_rand($opties);
+       echo $opties[array_rand($opties)];
     ?>
 </body>
 </html>

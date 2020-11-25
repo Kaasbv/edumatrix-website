@@ -2,14 +2,13 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <title>The Matrix</title>
+        <title>Patat</title>
     </head>
 <body>
-    <canvas id="c"></canvas>
-    <div id="color">#Error</div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.min.js"></script>
-    <script src="script.js"></script>
+    <b>Is het patat of friet?</b>
+    <?php
+       $opties = ["patat"];
+       echo array_rand($opties);
+    ?>
 </body>
 </html>

@@ -4,19 +4,78 @@
 }
 
 body {
-    background: black;
+    background: lightcyan;
 }
 
-canvas {
+
+/**************** Navigation Bar ************/
+
+#menu-logo {
+    position: relative;
+    float:left;
+    width: 50px;
+    height:50px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 6vh;
     display: block;
-}
-
-#color {
-    color: #BBB;
-    font-family: helvetica, arial, sans-serif;
-    font-size: 1.2em;
-    position: absolute;
-    bottom: 0;
-    right: 0;
     z-index: 1000;
 }
+
+#navbar {
+    background-color:#ACDDDE;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+#navbar > a {
+    padding:15px;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    height: 100%;
+}
+
+#navbar > a:hover{
+    background-color: white;
+}
+
+#offerte {
+    position: relative;
+    float: right;
+    padding: 5px;
+    margin: 5px;
+    margin-right: 20px;
+}
+
+
+
+/***********Jumbotron *************/
+
+#welkom{
+    position: relative;
+    top: 20vh;
+}
+
+#welkom > .container > .row > .col > p {
+padding-top: 40px;
+padding-bottom: 40px;
+padding-right: 20px;
+}
+
+
+#welkom > .container > .row > .col > button {
+    margin-right:40px;
+}
+
+#blankpc {
+    width: 500px;
+    height: 400px;
+}
+
+

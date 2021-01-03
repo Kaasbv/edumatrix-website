@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="nl">
     <head>
         <meta charset="utf-8">
         <title>Patat</title>
@@ -12,7 +12,7 @@
 
     <nav>
         <div id= "navbar">
-        <img id="menu-logo" src="./Images/logo.png" alt="Logo"></img>
+        <img id="menu-logo" src="./Images/logo.png" alt="Logo">
         <a href="PLACEHOLDER1">PLACEHOLDER1</a>
         <a href="PLACEHOLDER2">PLACEHOLDER2</a>
         <a href="PLACEHOLDER3">PLACEHOLDER3</a>
@@ -32,14 +32,11 @@
                     <button class="btn btn-outline-info" onclick="document.location= 'PLACEHOLDER'"> placeholder</button>
                 </div>
                 <div class="col">
-                    <img id="blankpc" src= ./Images/blankpc.png alt="blankpc"></img>
+                    <img id="blankpc" src= ./Images/blankpc.png alt="blankpc">
                 </div>
             </div>
         </div>
     </div>
 
-
-
-</div>
 </body>
 </html>
